@@ -1,4 +1,4 @@
-name: Deploy to okteto hi
+name: Deploy to okteto
 on:
   push:
     branches:
