@@ -132,7 +132,7 @@ jobs:
     - name: Activate namespace
       uses: okteto/namespace@master
       with:
-        namespace: ${{ secrets.OKTETO_NAMESPACE }}
+        namespace: SUPER
     - name: Download k8s configuration
       uses: actions/download-artifact@v2
       with:
